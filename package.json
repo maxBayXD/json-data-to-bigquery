@@ -1,0 +1,22 @@
+{
+  "name": "bigquery-json-loader",
+  "version": "1.0.0",
+  "description": "End-to-end implementation to flatten JSON, create a BigQuery table, and load data",
+  "main": "createTable.js",
+  "dependencies": {
+    "@google-cloud/bigquery": "^7.5.0"
+  },
+  "scripts": {
+    "create-table": "node --no-deprecation bigquery/createTable.js",
+    "load-data": "node --no-deprecation bigquery/loadData.js"
+  },
+  "keywords": [
+    "bigquery",
+    "json",
+    "loader",
+    "flatten",
+    "create table",
+    "load data"
+  ],
+  "author": "Smruti Ranjan Bhanja"
+}

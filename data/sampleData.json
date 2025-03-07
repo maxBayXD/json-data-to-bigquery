@@ -1,0 +1,10 @@
+{
+  "user": {
+    "name": "Alice",
+    "address": {
+      "city": "Mumbai",
+      "country": "India"
+    }
+  },
+  "active": true
+}
